@@ -5,8 +5,9 @@
  * Return positive number only
  */
 int _abs(int)
-	int n;
 {
+	int n
+
 	if (n > 0)
 	{
 		return (n);
@@ -18,7 +19,7 @@ int _abs(int)
 	}
 	else
 	{
-		n=(-n)
+		n=(-n);
 		return (n);
 	}
 }
