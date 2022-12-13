@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include "main.h"
+
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	char c;
-	char n = '\n';
-	for(c = 'a' ; c <= 'z' ; c++){
-		putchar(c);
-	}
-	putchar(n);
+	print_alphabet();
+	return (0);
 }
