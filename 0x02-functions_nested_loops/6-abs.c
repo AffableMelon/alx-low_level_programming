@@ -4,22 +4,10 @@
  * @n: the number
  * Return positive number only
  */
-int _abs(int)
+int _abs(int t)
 {
-	int n
-
-	if (n > 0)
-	{
-		return (n);
-	}
-	else if (n == 0)
-	{
-		_putchar('0');
-		return (0);
-	}
+	if (t >= 0)
+		return (t);
 	else
-	{
-		n=(-n);
-		return (n);
-	}
+		return (-t);
 }
