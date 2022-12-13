@@ -4,7 +4,7 @@
  * @n: the number
  * Return positive number only
  */
-int print_sign(int)
+int _abs(int)
 	int n;
 {
 	if (n > 0)
@@ -18,7 +18,7 @@ int print_sign(int)
 	}
 	else
 	{
-		n*(-1)
+		n=(-n)
 		return (n);
 	}
 }
