@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- *_islower(int c) checks if word is lower or bigger
+ * _islower - checks if word is lower or bigger
+ * @c: the charachter
+ * Return 1 if lowercase otherwise 0 if capital
  */
 int _islower(int c)
 {
