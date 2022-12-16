@@ -3,7 +3,7 @@
 /**
  *_isupper - checks if upper or lower alphabet
  *
- *
+ *@c: is the charachter to be checked
  *Return: 1 if upper 0 if lower
  */
 
