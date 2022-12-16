@@ -1,16 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_numbers - prints numbers 0 to 9
- *
- * Retruns: returns 0-9
+ * more_numbers - prints numbers 0 to 14 ten times
+ * Retruns: returns 0-14 ten times
  */
 
 void more_numbers(void)
 {
 	int i;
 	int j;
-	
+
 	for (i = 0 ; i < 10 ; i++)
 	{
 		for (j = 0 ; j < 15 ; j++)
