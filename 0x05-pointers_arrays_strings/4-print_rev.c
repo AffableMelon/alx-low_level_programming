@@ -11,7 +11,7 @@ void print_rev(char *str)
 {
 	int i;
 
-	i = =
+	i = 0;
 	for (;*str != '\0';)
 	{
 		i++;
@@ -19,7 +19,7 @@ void print_rev(char *str)
 	}
 	while (i >= 0)
 	{
-		_putchar(str[i]);
+		_putchar(*str);
 		i--;
 		str--;
 	}
