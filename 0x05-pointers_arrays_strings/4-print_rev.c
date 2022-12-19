@@ -17,9 +17,10 @@ void print_rev(char *str)
 		i++;
 		str++;
 	}
+	i = i - 1;
 	while (i >= 0)
 	{
-		_putchar(*str);
+		_putchar(str[i]);
 		i--;
 		str--;
 	}
