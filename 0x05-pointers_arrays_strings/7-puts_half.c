@@ -13,6 +13,7 @@ void puts_half(char *str)
 {
 	int i;
 	int j;
+	int k;
 
 	i = 0;
 
@@ -23,18 +24,18 @@ void puts_half(char *str)
 	if (i % 2 == 0)
 	{
 		j = i / 2;
-		for (; j <= i; j++)
+		for (k = j; k <= i; k++)
 		{
-			_putchar(str[j]);
+			_putchar(str[k]);
 		}
 	}
 	else
 	{
 		i--;
 		j = i / 2;
-		for (; j <= i; j++)
+		for (k = j; k <= i; k++)
 		{
-			_putchar(str[j]);
+			_putchar(str[k]);
 		}
 	}
 	_putchar('\n');
