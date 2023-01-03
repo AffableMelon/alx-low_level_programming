@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _strspn - gives number of bytes in the initial str
+ * _strpbrk - search for a byt in set of bytes
  * @s: pointer to be checked
- * @accept: pointer to be found
- * Return: bytes of appearance
+ * @accept: byt to be found
+ * Return: bytes found
  */
 char *_strpbrk(char *s, char *accept)
 {
