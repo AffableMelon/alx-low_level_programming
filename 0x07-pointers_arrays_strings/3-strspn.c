@@ -22,7 +22,6 @@ unsigned int _strspn(char *s, char *accept)
 			}
 			j++;
 		}
-	return (match);
 	}
-	return (0);
+	return (match);
 }
